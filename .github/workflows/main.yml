@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'  # Specify your desired Java version
-          distribution: 'adoptopenjdk
+          distribution: 'adoptopenjdk'
 
       - name: Build with Maven
         run: mvn test verify
