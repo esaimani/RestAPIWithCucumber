@@ -27,7 +27,7 @@ Body:
     "language": "English"
 }
 HTTP/1.1 200 OK
-Date: Fri, 04 Apr 2025 02:16:48 GMT
+Date: Fri, 04 Apr 2025 16:50:43 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +40,161 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "fbc0cb095e73c2fc6bed9a664f35f0ea",
+    "place_id": "97b9cf5325d94d62a3b9352b2554e90c",
     "scope": "APP",
-    "reference": "dc597005e5f0825f5e59ffdb4f1770b6dc597005e5f0825f5e59ffdb4f1770b6",
-    "id": "dc597005e5f0825f5e59ffdb4f1770b6"
+    "reference": "9dbd75629d79e79b1a068610c6f344e19dbd75629d79e79b1a068610c6f344e1",
+    "id": "9dbd75629d79e79b1a068610c6f344e1"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=97b9cf5325d94d62a3b9352b2554e90c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=97b9cf5325d94d62a3b9352b2554e90c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Apr 2025 16:50:44 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 252
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "60",
+    "name": "Omara Lane SE",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "67, side layout, cohen 09",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 60,
+    "name": "Symrna Lane WS",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "98, River Face, Perry 25",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Apr 2025 16:50:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1598085a4cd199387b719e25d6a5a6ad",
+    "scope": "APP",
+    "reference": "f277c0dd6bf6a84911affa47c2bcaa51f277c0dd6bf6a84911affa47c2bcaa51",
+    "id": "f277c0dd6bf6a84911affa47c2bcaa51"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1598085a4cd199387b719e25d6a5a6ad
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1598085a4cd199387b719e25d6a5a6ad
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Apr 2025 16:50:47 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 251
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "60",
+    "name": "Symrna Lane WS",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "98, River Face, Perry 25",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "French"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "1598085a4cd199387b719e25d6a5a6ad"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Apr 2025 16:50:49 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
 }
