@@ -1,0 +1,22 @@
+name: Rest Assured CI Workflow
+
+on:
+  push:
+    branches:
+      - master  # Replace with your default branch name if it's not 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'  # Specify your desired Java version
+
+      - name: Build with Maven
+        run: mvn test verify
