@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
 
       - name: Set up Oracle JDK 17
         uses: oracle-actions/setup-java@v1
