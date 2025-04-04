@@ -13,11 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up JDK
-        uses: actions/setup-java@v2
+      - name: Set up Oracle JDK 17
+        uses: oracle-actions/setup-java@v1
         with:
-          java-version: '17'  # Specify your desired Java version
-          distribution: 'adoptopenjdk'
+          website: 'oracle.com'  
+          release: '17'
 
       - name: Build with Maven
         run: mvn test verify
